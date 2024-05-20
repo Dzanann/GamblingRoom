@@ -68,98 +68,24 @@ html, body {
     width: 75%;
     height: 500px;
     position: relative;
+    display:flex;
     margin-left: auto;
     margin-right: auto;
-}
+    padding-top: 150px;
 
-.igralci {
-    width: 100%;
-    height: 65%;
-    text-align: center;
-    padding-top: 55px;
 }
 
 .players {
-    width: 250px;
+    width: 150px;
     height: 200px;
-}
-
-#player1, #player2, #player3 {
-    width: 250px;
-    height: 180px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 25px;
     display: inline-block;
-}
-
-#player2 {
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.enterName {
-    color: white;
-    padding-top: 30px;
-}
-
-input[type="text"], select {
-    margin-top: 10px;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #000b70;
-    background-color: rgba(0, 27, 150, 0.3);
-    width: 65%;
-    box-sizing: border-box;
-}
-
-input[type="text"]:focus, select:focus {
-    outline: none;
-    border-color: dodgerblue;
-}
-
-input::placeholder, select::placeholder {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-label {
-    color: white;
-}
-
-.izbirakock {
-    width: 100%;
-    height: 200px;
     text-align: center;
-    margin-top: 50px;
-}
-
-.kocke {
-    width: 25%;
-    height: 100%;
+    flex:1;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 25px;
     padding-top: 15px;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 25px;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.gumb {
-    width: 100%;
-    height: 20%;
-    padding-top: 50px;
-    text-align: center;
-}
-
-#gumb {
-    width: 100px;
-    height: 45px;
-    font-size: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .noga {
